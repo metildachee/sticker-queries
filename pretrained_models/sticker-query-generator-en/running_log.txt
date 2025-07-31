@@ -1,0 +1,564 @@
+[INFO|2025-05-27 22:39:19] tokenization_utils_base.py:2023 >> loading file tokenizer.model from cache at /home/tsinghuaair/.cache/huggingface/hub/models--llava-hf--llava-1.5-7b-hf/snapshots/6ceb2ed33cb8f107a781c431fe2e61574da69369/tokenizer.model
+
+[INFO|2025-05-27 22:39:19] tokenization_utils_base.py:2023 >> loading file tokenizer.json from cache at /home/tsinghuaair/.cache/huggingface/hub/models--llava-hf--llava-1.5-7b-hf/snapshots/6ceb2ed33cb8f107a781c431fe2e61574da69369/tokenizer.json
+
+[INFO|2025-05-27 22:39:19] tokenization_utils_base.py:2023 >> loading file added_tokens.json from cache at /home/tsinghuaair/.cache/huggingface/hub/models--llava-hf--llava-1.5-7b-hf/snapshots/6ceb2ed33cb8f107a781c431fe2e61574da69369/added_tokens.json
+
+[INFO|2025-05-27 22:39:19] tokenization_utils_base.py:2023 >> loading file special_tokens_map.json from cache at /home/tsinghuaair/.cache/huggingface/hub/models--llava-hf--llava-1.5-7b-hf/snapshots/6ceb2ed33cb8f107a781c431fe2e61574da69369/special_tokens_map.json
+
+[INFO|2025-05-27 22:39:19] tokenization_utils_base.py:2023 >> loading file tokenizer_config.json from cache at /home/tsinghuaair/.cache/huggingface/hub/models--llava-hf--llava-1.5-7b-hf/snapshots/6ceb2ed33cb8f107a781c431fe2e61574da69369/tokenizer_config.json
+
+[INFO|2025-05-27 22:39:19] tokenization_utils_base.py:2023 >> loading file chat_template.jinja from cache at None
+
+[INFO|2025-05-27 22:39:19] tokenization_utils_base.py:2299 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+
+[WARNING|2025-05-27 22:39:20] logging.py:328 >> Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+
+[INFO|2025-05-27 22:39:20] processing_utils.py:930 >> loading configuration file processor_config.json from cache at /home/tsinghuaair/.cache/huggingface/hub/models--llava-hf--llava-1.5-7b-hf/snapshots/6ceb2ed33cb8f107a781c431fe2e61574da69369/processor_config.json
+
+[INFO|2025-05-27 22:39:20] image_processing_base.py:380 >> loading configuration file preprocessor_config.json from cache at /home/tsinghuaair/.cache/huggingface/hub/models--llava-hf--llava-1.5-7b-hf/snapshots/6ceb2ed33cb8f107a781c431fe2e61574da69369/preprocessor_config.json
+
+[WARNING|2025-05-27 22:39:20] logging.py:328 >> Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+
+[INFO|2025-05-27 22:39:20] image_processing_base.py:433 >> Image processor CLIPImageProcessor {
+  "crop_size": {
+    "height": 336,
+    "width": 336
+  },
+  "do_center_crop": true,
+  "do_convert_rgb": true,
+  "do_normalize": true,
+  "do_rescale": true,
+  "do_resize": true,
+  "image_mean": [
+    0.48145466,
+    0.4578275,
+    0.40821073
+  ],
+  "image_processor_type": "CLIPImageProcessor",
+  "image_std": [
+    0.26862954,
+    0.26130258,
+    0.27577711
+  ],
+  "processor_class": "LlavaProcessor",
+  "resample": 3,
+  "rescale_factor": 0.00392156862745098,
+  "size": {
+    "shortest_edge": 336
+  }
+}
+
+
+[INFO|2025-05-27 22:39:21] tokenization_utils_base.py:2023 >> loading file tokenizer.model from cache at /home/tsinghuaair/.cache/huggingface/hub/models--llava-hf--llava-1.5-7b-hf/snapshots/6ceb2ed33cb8f107a781c431fe2e61574da69369/tokenizer.model
+
+[INFO|2025-05-27 22:39:21] tokenization_utils_base.py:2023 >> loading file tokenizer.json from cache at /home/tsinghuaair/.cache/huggingface/hub/models--llava-hf--llava-1.5-7b-hf/snapshots/6ceb2ed33cb8f107a781c431fe2e61574da69369/tokenizer.json
+
+[INFO|2025-05-27 22:39:21] tokenization_utils_base.py:2023 >> loading file added_tokens.json from cache at /home/tsinghuaair/.cache/huggingface/hub/models--llava-hf--llava-1.5-7b-hf/snapshots/6ceb2ed33cb8f107a781c431fe2e61574da69369/added_tokens.json
+
+[INFO|2025-05-27 22:39:21] tokenization_utils_base.py:2023 >> loading file special_tokens_map.json from cache at /home/tsinghuaair/.cache/huggingface/hub/models--llava-hf--llava-1.5-7b-hf/snapshots/6ceb2ed33cb8f107a781c431fe2e61574da69369/special_tokens_map.json
+
+[INFO|2025-05-27 22:39:21] tokenization_utils_base.py:2023 >> loading file tokenizer_config.json from cache at /home/tsinghuaair/.cache/huggingface/hub/models--llava-hf--llava-1.5-7b-hf/snapshots/6ceb2ed33cb8f107a781c431fe2e61574da69369/tokenizer_config.json
+
+[INFO|2025-05-27 22:39:21] tokenization_utils_base.py:2023 >> loading file chat_template.jinja from cache at None
+
+[INFO|2025-05-27 22:39:21] tokenization_utils_base.py:2299 >> Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+
+[INFO|2025-05-27 22:39:22] processing_utils.py:930 >> loading configuration file processor_config.json from cache at /home/tsinghuaair/.cache/huggingface/hub/models--llava-hf--llava-1.5-7b-hf/snapshots/6ceb2ed33cb8f107a781c431fe2e61574da69369/processor_config.json
+
+[INFO|2025-05-27 22:39:22] processing_utils.py:990 >> Processor LlavaProcessor:
+- image_processor: CLIPImageProcessor {
+  "crop_size": {
+    "height": 336,
+    "width": 336
+  },
+  "do_center_crop": true,
+  "do_convert_rgb": true,
+  "do_normalize": true,
+  "do_rescale": true,
+  "do_resize": true,
+  "image_mean": [
+    0.48145466,
+    0.4578275,
+    0.40821073
+  ],
+  "image_processor_type": "CLIPImageProcessor",
+  "image_std": [
+    0.26862954,
+    0.26130258,
+    0.27577711
+  ],
+  "processor_class": "LlavaProcessor",
+  "resample": 3,
+  "rescale_factor": 0.00392156862745098,
+  "size": {
+    "shortest_edge": 336
+  }
+}
+
+- tokenizer: LlamaTokenizerFast(name_or_path='llava-hf/llava-1.5-7b-hf', vocab_size=32000, model_max_length=1000000000000000019884624838656, is_fast=True, padding_side='left', truncation_side='right', special_tokens={'bos_token': '<s>', 'eos_token': '</s>', 'unk_token': '<unk>', 'pad_token': '<pad>', 'image_token': '<image>'}, clean_up_tokenization_spaces=False, added_tokens_decoder={
+	0: AddedToken("<unk>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	1: AddedToken("<s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	2: AddedToken("</s>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	32000: AddedToken("<image>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+	32001: AddedToken("<pad>", rstrip=False, lstrip=False, single_word=False, normalized=False, special=True),
+}
+)
+
+{
+  "image_token": "<image>",
+  "num_additional_image_tokens": 1,
+  "patch_size": 14,
+  "processor_class": "LlavaProcessor",
+  "vision_feature_select_strategy": "default"
+}
+
+
+[INFO|2025-05-27 22:39:22] logging.py:143 >> Loading dataset /home/tsinghuaair/mawz/xxe_metchee/finetune-llms/llava-1.5-7b-hf-sticker-labels/kfold_output/fold_4/stickers_label_train.json...
+
+[INFO|2025-05-27 22:39:26] configuration_utils.py:698 >> loading configuration file config.json from cache at /home/tsinghuaair/.cache/huggingface/hub/models--llava-hf--llava-1.5-7b-hf/snapshots/6ceb2ed33cb8f107a781c431fe2e61574da69369/config.json
+
+[INFO|2025-05-27 22:39:26] configuration_utils.py:770 >> Model config LlavaConfig {
+  "architectures": [
+    "LlavaForConditionalGeneration"
+  ],
+  "ignore_index": -100,
+  "image_seq_length": 576,
+  "image_token_index": 32000,
+  "model_type": "llava",
+  "multimodal_projector_bias": true,
+  "pad_token_id": 32001,
+  "projector_hidden_act": "gelu",
+  "text_config": {
+    "_name_or_path": "lmsys/vicuna-7b-v1.5",
+    "architectures": [
+      "LlamaForCausalLM"
+    ],
+    "attention_bias": false,
+    "attention_dropout": 0.0,
+    "head_dim": 128,
+    "hidden_act": "silu",
+    "hidden_size": 4096,
+    "initializer_range": 0.02,
+    "intermediate_size": 11008,
+    "max_position_embeddings": 4096,
+    "mlp_bias": false,
+    "model_type": "llama",
+    "num_attention_heads": 32,
+    "num_hidden_layers": 32,
+    "num_key_value_heads": 32,
+    "pretraining_tp": 1,
+    "rms_norm_eps": 1e-05,
+    "rope_scaling": null,
+    "rope_theta": 10000.0,
+    "torch_dtype": "float16",
+    "use_cache": true,
+    "vocab_size": 32064
+  },
+  "tie_word_embeddings": false,
+  "torch_dtype": "float16",
+  "transformers_version": "4.52.1",
+  "vision_config": {
+    "attention_dropout": 0.0,
+    "hidden_act": "quick_gelu",
+    "hidden_size": 1024,
+    "image_size": 336,
+    "initializer_factor": 1.0,
+    "initializer_range": 0.02,
+    "intermediate_size": 4096,
+    "layer_norm_eps": 1e-05,
+    "model_type": "clip_vision_model",
+    "num_attention_heads": 16,
+    "num_channels": 3,
+    "num_hidden_layers": 24,
+    "patch_size": 14,
+    "projection_dim": 768,
+    "vocab_size": 32000
+  },
+  "vision_feature_layer": -2,
+  "vision_feature_select_strategy": "default",
+  "vocab_size": 32064
+}
+
+
+[INFO|2025-05-27 22:39:26] logging.py:143 >> KV cache is disabled during training.
+
+[INFO|2025-05-27 22:39:26] modeling_utils.py:1149 >> loading weights file model.safetensors from cache at /home/tsinghuaair/.cache/huggingface/hub/models--llava-hf--llava-1.5-7b-hf/snapshots/6ceb2ed33cb8f107a781c431fe2e61574da69369/model.safetensors.index.json
+
+[INFO|2025-05-27 22:39:26] modeling_utils.py:2239 >> Instantiating LlavaForConditionalGeneration model under default dtype torch.bfloat16.
+
+[INFO|2025-05-27 22:39:26] configuration_utils.py:1135 >> Generate config GenerationConfig {
+  "pad_token_id": 32001,
+  "use_cache": false
+}
+
+
+[INFO|2025-05-27 22:39:27] modeling_utils.py:2239 >> Instantiating CLIPVisionModel model under default dtype torch.bfloat16.
+
+[INFO|2025-05-27 22:39:27] modeling_utils.py:2239 >> Instantiating LlamaModel model under default dtype torch.bfloat16.
+
+[INFO|2025-05-27 22:39:30] modeling_utils.py:5170 >> All model checkpoint weights were used when initializing LlavaForConditionalGeneration.
+
+
+[INFO|2025-05-27 22:39:30] modeling_utils.py:5178 >> All the weights of LlavaForConditionalGeneration were initialized from the model checkpoint at llava-hf/llava-1.5-7b-hf.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use LlavaForConditionalGeneration for predictions without further training.
+
+[INFO|2025-05-27 22:39:30] configuration_utils.py:1090 >> loading configuration file generation_config.json from cache at /home/tsinghuaair/.cache/huggingface/hub/models--llava-hf--llava-1.5-7b-hf/snapshots/6ceb2ed33cb8f107a781c431fe2e61574da69369/generation_config.json
+
+[INFO|2025-05-27 22:39:30] configuration_utils.py:1135 >> Generate config GenerationConfig {
+  "bos_token_id": 1,
+  "eos_token_id": 2,
+  "pad_token_id": 32001
+}
+
+
+[INFO|2025-05-27 22:39:31] logging.py:143 >> Gradient checkpointing enabled.
+
+[INFO|2025-05-27 22:39:31] logging.py:143 >> Using torch SDPA for faster training and inference.
+
+[INFO|2025-05-27 22:39:31] logging.py:143 >> Upcasting trainable params to float32.
+
+[INFO|2025-05-27 22:39:31] logging.py:143 >> Fine-tuning method: LoRA
+
+[INFO|2025-05-27 22:39:31] logging.py:143 >> Found linear modules: k_proj,v_proj,q_proj,o_proj,gate_proj,up_proj,down_proj
+
+[INFO|2025-05-27 22:39:31] logging.py:143 >> Set vision model not trainable: ['vision_tower'].
+
+[INFO|2025-05-27 22:39:31] logging.py:143 >> Set multi model projector not trainable: multi_modal_projector.
+
+[INFO|2025-05-27 22:39:31] logging.py:143 >> trainable params: 19,988,480 || all params: 7,083,415,552 || trainable%: 0.2822
+
+[INFO|2025-05-27 22:39:31] trainer.py:756 >> Using auto half precision backend
+
+[INFO|2025-05-27 22:39:32] trainer.py:2409 >> ***** Running training *****
+
+[INFO|2025-05-27 22:39:32] trainer.py:2410 >>   Num examples = 890
+
+[INFO|2025-05-27 22:39:32] trainer.py:2411 >>   Num Epochs = 4
+
+[INFO|2025-05-27 22:39:32] trainer.py:2412 >>   Instantaneous batch size per device = 2
+
+[INFO|2025-05-27 22:39:32] trainer.py:2415 >>   Total train batch size (w. parallel, distributed & accumulation) = 32
+
+[INFO|2025-05-27 22:39:32] trainer.py:2416 >>   Gradient Accumulation steps = 8
+
+[INFO|2025-05-27 22:39:32] trainer.py:2417 >>   Total optimization steps = 112
+
+[INFO|2025-05-27 22:39:32] trainer.py:2418 >>   Number of trainable parameters = 19,988,480
+
+[WARNING|2025-05-27 22:39:34] logging.py:328 >> `loss_type=None` was set in the config but it is unrecognised.Using the default loss: `ForCausalLMLoss`.
+
+[WARNING|2025-05-27 22:39:34] logging.py:328 >> `loss_type=None` was set in the config but it is unrecognised.Using the default loss: `ForCausalLMLoss`.
+
+[INFO|2025-05-27 22:39:59] logging.py:143 >> {'loss': 3.5214, 'learning_rate': 4.9843e-05, 'epoch': 0.18, 'throughput': 4196.48}
+
+[INFO|2025-05-27 22:40:25] logging.py:143 >> {'loss': 3.3636, 'learning_rate': 4.9208e-05, 'epoch': 0.36, 'throughput': 4256.30}
+
+[INFO|2025-05-27 22:40:51] logging.py:143 >> {'loss': 3.0641, 'learning_rate': 4.8097e-05, 'epoch': 0.54, 'throughput': 4270.16}
+
+[INFO|2025-05-27 22:41:17] logging.py:143 >> {'loss': 2.9922, 'learning_rate': 4.6533e-05, 'epoch': 0.72, 'throughput': 4270.54}
+
+[INFO|2025-05-27 22:41:44] logging.py:143 >> {'loss': 3.0359, 'learning_rate': 4.4546e-05, 'epoch': 0.90, 'throughput': 4269.56}
+
+[INFO|2025-05-27 22:42:09] logging.py:143 >> {'loss': 2.8250, 'learning_rate': 4.2175e-05, 'epoch': 1.07, 'throughput': 4268.14}
+
+[INFO|2025-05-27 22:42:35] logging.py:143 >> {'loss': 2.8427, 'learning_rate': 3.9467e-05, 'epoch': 1.25, 'throughput': 4266.21}
+
+[INFO|2025-05-27 22:43:02] logging.py:143 >> {'loss': 2.7976, 'learning_rate': 3.6475e-05, 'epoch': 1.43, 'throughput': 4263.24}
+
+[INFO|2025-05-27 22:43:28] logging.py:143 >> {'loss': 2.6764, 'learning_rate': 3.3257e-05, 'epoch': 1.61, 'throughput': 4261.43}
+
+[INFO|2025-05-27 22:43:54] logging.py:143 >> {'loss': 2.7217, 'learning_rate': 2.9877e-05, 'epoch': 1.79, 'throughput': 4260.88}
+
+[INFO|2025-05-27 22:44:21] logging.py:143 >> {'loss': 2.7066, 'learning_rate': 2.6402e-05, 'epoch': 1.97, 'throughput': 4259.29}
+
+[INFO|2025-05-27 22:44:46] logging.py:143 >> {'loss': 2.6038, 'learning_rate': 2.2899e-05, 'epoch': 2.14, 'throughput': 4258.92}
+
+[INFO|2025-05-27 22:45:13] logging.py:143 >> {'loss': 2.5954, 'learning_rate': 1.9437e-05, 'epoch': 2.32, 'throughput': 4258.25}
+
+[INFO|2025-05-27 22:45:39] logging.py:143 >> {'loss': 2.6679, 'learning_rate': 1.6084e-05, 'epoch': 2.50, 'throughput': 4256.92}
+
+[INFO|2025-05-27 22:46:05] logging.py:143 >> {'loss': 2.5975, 'learning_rate': 1.2907e-05, 'epoch': 2.68, 'throughput': 4256.50}
+
+[INFO|2025-05-27 22:46:32] logging.py:143 >> {'loss': 2.6389, 'learning_rate': 9.9671e-06, 'epoch': 2.86, 'throughput': 4256.21}
+
+[INFO|2025-05-27 22:46:57] logging.py:143 >> {'loss': 2.4908, 'learning_rate': 7.3223e-06, 'epoch': 3.04, 'throughput': 4255.50}
+
+[INFO|2025-05-27 22:47:24] logging.py:143 >> {'loss': 2.6384, 'learning_rate': 5.0247e-06, 'epoch': 3.22, 'throughput': 4255.70}
+
+[INFO|2025-05-27 22:47:50] logging.py:143 >> {'loss': 2.5131, 'learning_rate': 3.1194e-06, 'epoch': 3.39, 'throughput': 4255.25}
+
+[INFO|2025-05-27 22:48:16] logging.py:143 >> {'loss': 2.5565, 'learning_rate': 1.6438e-06, 'epoch': 3.57, 'throughput': 4255.05}
+
+[INFO|2025-05-27 22:48:16] trainer.py:3993 >> Saving model checkpoint to saves/LLaVA-1.5-7B-Chat/lora/train_k_folds_4_4_epochs/checkpoint-100
+
+[INFO|2025-05-27 22:48:17] configuration_utils.py:698 >> loading configuration file config.json from cache at /home/tsinghuaair/.cache/huggingface/hub/models--llava-hf--llava-1.5-7b-hf/snapshots/6ceb2ed33cb8f107a781c431fe2e61574da69369/config.json
+
+[INFO|2025-05-27 22:48:17] configuration_utils.py:770 >> Model config LlavaConfig {
+  "architectures": [
+    "LlavaForConditionalGeneration"
+  ],
+  "ignore_index": -100,
+  "image_seq_length": 576,
+  "image_token_index": 32000,
+  "model_type": "llava",
+  "multimodal_projector_bias": true,
+  "pad_token_id": 32001,
+  "projector_hidden_act": "gelu",
+  "text_config": {
+    "_name_or_path": "lmsys/vicuna-7b-v1.5",
+    "architectures": [
+      "LlamaForCausalLM"
+    ],
+    "attention_bias": false,
+    "attention_dropout": 0.0,
+    "head_dim": 128,
+    "hidden_act": "silu",
+    "hidden_size": 4096,
+    "initializer_range": 0.02,
+    "intermediate_size": 11008,
+    "max_position_embeddings": 4096,
+    "mlp_bias": false,
+    "model_type": "llama",
+    "num_attention_heads": 32,
+    "num_hidden_layers": 32,
+    "num_key_value_heads": 32,
+    "pretraining_tp": 1,
+    "rms_norm_eps": 1e-05,
+    "rope_scaling": null,
+    "rope_theta": 10000.0,
+    "torch_dtype": "float16",
+    "use_cache": true,
+    "vocab_size": 32064
+  },
+  "tie_word_embeddings": false,
+  "torch_dtype": "float16",
+  "transformers_version": "4.52.1",
+  "vision_config": {
+    "attention_dropout": 0.0,
+    "hidden_act": "quick_gelu",
+    "hidden_size": 1024,
+    "image_size": 336,
+    "initializer_factor": 1.0,
+    "initializer_range": 0.02,
+    "intermediate_size": 4096,
+    "layer_norm_eps": 1e-05,
+    "model_type": "clip_vision_model",
+    "num_attention_heads": 16,
+    "num_channels": 3,
+    "num_hidden_layers": 24,
+    "patch_size": 14,
+    "projection_dim": 768,
+    "vocab_size": 32000
+  },
+  "vision_feature_layer": -2,
+  "vision_feature_select_strategy": "default",
+  "vocab_size": 32064
+}
+
+
+[INFO|2025-05-27 22:48:17] tokenization_utils_base.py:2356 >> chat template saved in saves/LLaVA-1.5-7B-Chat/lora/train_k_folds_4_4_epochs/checkpoint-100/chat_template.jinja
+
+[INFO|2025-05-27 22:48:17] tokenization_utils_base.py:2525 >> tokenizer config file saved in saves/LLaVA-1.5-7B-Chat/lora/train_k_folds_4_4_epochs/checkpoint-100/tokenizer_config.json
+
+[INFO|2025-05-27 22:48:17] tokenization_utils_base.py:2534 >> Special tokens file saved in saves/LLaVA-1.5-7B-Chat/lora/train_k_folds_4_4_epochs/checkpoint-100/special_tokens_map.json
+
+[INFO|2025-05-27 22:48:18] image_processing_base.py:260 >> Image processor saved in saves/LLaVA-1.5-7B-Chat/lora/train_k_folds_4_4_epochs/checkpoint-100/preprocessor_config.json
+
+[INFO|2025-05-27 22:48:18] tokenization_utils_base.py:2356 >> chat template saved in saves/LLaVA-1.5-7B-Chat/lora/train_k_folds_4_4_epochs/checkpoint-100/chat_template.jinja
+
+[INFO|2025-05-27 22:48:18] tokenization_utils_base.py:2525 >> tokenizer config file saved in saves/LLaVA-1.5-7B-Chat/lora/train_k_folds_4_4_epochs/checkpoint-100/tokenizer_config.json
+
+[INFO|2025-05-27 22:48:18] tokenization_utils_base.py:2534 >> Special tokens file saved in saves/LLaVA-1.5-7B-Chat/lora/train_k_folds_4_4_epochs/checkpoint-100/special_tokens_map.json
+
+[INFO|2025-05-27 22:48:18] processing_utils.py:674 >> chat template saved in saves/LLaVA-1.5-7B-Chat/lora/train_k_folds_4_4_epochs/checkpoint-100/chat_template.jinja
+
+[INFO|2025-05-27 22:48:18] processing_utils.py:709 >> processor saved in saves/LLaVA-1.5-7B-Chat/lora/train_k_folds_4_4_epochs/checkpoint-100/processor_config.json
+
+[INFO|2025-05-27 22:48:45] logging.py:143 >> {'loss': 2.5378, 'learning_rate': 6.2680e-07, 'epoch': 3.75, 'throughput': 4240.62}
+
+[INFO|2025-05-27 22:49:11] logging.py:143 >> {'loss': 2.5846, 'learning_rate': 8.8463e-08, 'epoch': 3.93, 'throughput': 4240.92}
+
+[INFO|2025-05-27 22:49:21] trainer.py:3993 >> Saving model checkpoint to saves/LLaVA-1.5-7B-Chat/lora/train_k_folds_4_4_epochs/checkpoint-112
+
+[INFO|2025-05-27 22:49:22] configuration_utils.py:698 >> loading configuration file config.json from cache at /home/tsinghuaair/.cache/huggingface/hub/models--llava-hf--llava-1.5-7b-hf/snapshots/6ceb2ed33cb8f107a781c431fe2e61574da69369/config.json
+
+[INFO|2025-05-27 22:49:22] configuration_utils.py:770 >> Model config LlavaConfig {
+  "architectures": [
+    "LlavaForConditionalGeneration"
+  ],
+  "ignore_index": -100,
+  "image_seq_length": 576,
+  "image_token_index": 32000,
+  "model_type": "llava",
+  "multimodal_projector_bias": true,
+  "pad_token_id": 32001,
+  "projector_hidden_act": "gelu",
+  "text_config": {
+    "_name_or_path": "lmsys/vicuna-7b-v1.5",
+    "architectures": [
+      "LlamaForCausalLM"
+    ],
+    "attention_bias": false,
+    "attention_dropout": 0.0,
+    "head_dim": 128,
+    "hidden_act": "silu",
+    "hidden_size": 4096,
+    "initializer_range": 0.02,
+    "intermediate_size": 11008,
+    "max_position_embeddings": 4096,
+    "mlp_bias": false,
+    "model_type": "llama",
+    "num_attention_heads": 32,
+    "num_hidden_layers": 32,
+    "num_key_value_heads": 32,
+    "pretraining_tp": 1,
+    "rms_norm_eps": 1e-05,
+    "rope_scaling": null,
+    "rope_theta": 10000.0,
+    "torch_dtype": "float16",
+    "use_cache": true,
+    "vocab_size": 32064
+  },
+  "tie_word_embeddings": false,
+  "torch_dtype": "float16",
+  "transformers_version": "4.52.1",
+  "vision_config": {
+    "attention_dropout": 0.0,
+    "hidden_act": "quick_gelu",
+    "hidden_size": 1024,
+    "image_size": 336,
+    "initializer_factor": 1.0,
+    "initializer_range": 0.02,
+    "intermediate_size": 4096,
+    "layer_norm_eps": 1e-05,
+    "model_type": "clip_vision_model",
+    "num_attention_heads": 16,
+    "num_channels": 3,
+    "num_hidden_layers": 24,
+    "patch_size": 14,
+    "projection_dim": 768,
+    "vocab_size": 32000
+  },
+  "vision_feature_layer": -2,
+  "vision_feature_select_strategy": "default",
+  "vocab_size": 32064
+}
+
+
+[INFO|2025-05-27 22:49:22] tokenization_utils_base.py:2356 >> chat template saved in saves/LLaVA-1.5-7B-Chat/lora/train_k_folds_4_4_epochs/checkpoint-112/chat_template.jinja
+
+[INFO|2025-05-27 22:49:22] tokenization_utils_base.py:2525 >> tokenizer config file saved in saves/LLaVA-1.5-7B-Chat/lora/train_k_folds_4_4_epochs/checkpoint-112/tokenizer_config.json
+
+[INFO|2025-05-27 22:49:22] tokenization_utils_base.py:2534 >> Special tokens file saved in saves/LLaVA-1.5-7B-Chat/lora/train_k_folds_4_4_epochs/checkpoint-112/special_tokens_map.json
+
+[INFO|2025-05-27 22:49:23] image_processing_base.py:260 >> Image processor saved in saves/LLaVA-1.5-7B-Chat/lora/train_k_folds_4_4_epochs/checkpoint-112/preprocessor_config.json
+
+[INFO|2025-05-27 22:49:23] tokenization_utils_base.py:2356 >> chat template saved in saves/LLaVA-1.5-7B-Chat/lora/train_k_folds_4_4_epochs/checkpoint-112/chat_template.jinja
+
+[INFO|2025-05-27 22:49:23] tokenization_utils_base.py:2525 >> tokenizer config file saved in saves/LLaVA-1.5-7B-Chat/lora/train_k_folds_4_4_epochs/checkpoint-112/tokenizer_config.json
+
+[INFO|2025-05-27 22:49:23] tokenization_utils_base.py:2534 >> Special tokens file saved in saves/LLaVA-1.5-7B-Chat/lora/train_k_folds_4_4_epochs/checkpoint-112/special_tokens_map.json
+
+[INFO|2025-05-27 22:49:23] processing_utils.py:674 >> chat template saved in saves/LLaVA-1.5-7B-Chat/lora/train_k_folds_4_4_epochs/checkpoint-112/chat_template.jinja
+
+[INFO|2025-05-27 22:49:23] processing_utils.py:709 >> processor saved in saves/LLaVA-1.5-7B-Chat/lora/train_k_folds_4_4_epochs/checkpoint-112/processor_config.json
+
+[INFO|2025-05-27 22:49:23] trainer.py:2676 >> 
+
+Training completed. Do not forget to share your model on huggingface.co/models =)
+
+
+
+[INFO|2025-05-27 22:49:23] image_processing_base.py:260 >> Image processor saved in saves/LLaVA-1.5-7B-Chat/lora/train_k_folds_4_4_epochs/preprocessor_config.json
+
+[INFO|2025-05-27 22:49:23] tokenization_utils_base.py:2356 >> chat template saved in saves/LLaVA-1.5-7B-Chat/lora/train_k_folds_4_4_epochs/chat_template.jinja
+
+[INFO|2025-05-27 22:49:23] tokenization_utils_base.py:2525 >> tokenizer config file saved in saves/LLaVA-1.5-7B-Chat/lora/train_k_folds_4_4_epochs/tokenizer_config.json
+
+[INFO|2025-05-27 22:49:23] tokenization_utils_base.py:2534 >> Special tokens file saved in saves/LLaVA-1.5-7B-Chat/lora/train_k_folds_4_4_epochs/special_tokens_map.json
+
+[INFO|2025-05-27 22:49:23] processing_utils.py:674 >> chat template saved in saves/LLaVA-1.5-7B-Chat/lora/train_k_folds_4_4_epochs/chat_template.jinja
+
+[INFO|2025-05-27 22:49:23] processing_utils.py:709 >> processor saved in saves/LLaVA-1.5-7B-Chat/lora/train_k_folds_4_4_epochs/processor_config.json
+
+[INFO|2025-05-27 22:49:23] trainer.py:3993 >> Saving model checkpoint to saves/LLaVA-1.5-7B-Chat/lora/train_k_folds_4_4_epochs
+
+[INFO|2025-05-27 22:49:24] configuration_utils.py:698 >> loading configuration file config.json from cache at /home/tsinghuaair/.cache/huggingface/hub/models--llava-hf--llava-1.5-7b-hf/snapshots/6ceb2ed33cb8f107a781c431fe2e61574da69369/config.json
+
+[INFO|2025-05-27 22:49:24] configuration_utils.py:770 >> Model config LlavaConfig {
+  "architectures": [
+    "LlavaForConditionalGeneration"
+  ],
+  "ignore_index": -100,
+  "image_seq_length": 576,
+  "image_token_index": 32000,
+  "model_type": "llava",
+  "multimodal_projector_bias": true,
+  "pad_token_id": 32001,
+  "projector_hidden_act": "gelu",
+  "text_config": {
+    "_name_or_path": "lmsys/vicuna-7b-v1.5",
+    "architectures": [
+      "LlamaForCausalLM"
+    ],
+    "attention_bias": false,
+    "attention_dropout": 0.0,
+    "head_dim": 128,
+    "hidden_act": "silu",
+    "hidden_size": 4096,
+    "initializer_range": 0.02,
+    "intermediate_size": 11008,
+    "max_position_embeddings": 4096,
+    "mlp_bias": false,
+    "model_type": "llama",
+    "num_attention_heads": 32,
+    "num_hidden_layers": 32,
+    "num_key_value_heads": 32,
+    "pretraining_tp": 1,
+    "rms_norm_eps": 1e-05,
+    "rope_scaling": null,
+    "rope_theta": 10000.0,
+    "torch_dtype": "float16",
+    "use_cache": true,
+    "vocab_size": 32064
+  },
+  "tie_word_embeddings": false,
+  "torch_dtype": "float16",
+  "transformers_version": "4.52.1",
+  "vision_config": {
+    "attention_dropout": 0.0,
+    "hidden_act": "quick_gelu",
+    "hidden_size": 1024,
+    "image_size": 336,
+    "initializer_factor": 1.0,
+    "initializer_range": 0.02,
+    "intermediate_size": 4096,
+    "layer_norm_eps": 1e-05,
+    "model_type": "clip_vision_model",
+    "num_attention_heads": 16,
+    "num_channels": 3,
+    "num_hidden_layers": 24,
+    "patch_size": 14,
+    "projection_dim": 768,
+    "vocab_size": 32000
+  },
+  "vision_feature_layer": -2,
+  "vision_feature_select_strategy": "default",
+  "vocab_size": 32064
+}
+
+
+[INFO|2025-05-27 22:49:24] tokenization_utils_base.py:2356 >> chat template saved in saves/LLaVA-1.5-7B-Chat/lora/train_k_folds_4_4_epochs/chat_template.jinja
+
+[INFO|2025-05-27 22:49:24] tokenization_utils_base.py:2525 >> tokenizer config file saved in saves/LLaVA-1.5-7B-Chat/lora/train_k_folds_4_4_epochs/tokenizer_config.json
+
+[INFO|2025-05-27 22:49:24] tokenization_utils_base.py:2534 >> Special tokens file saved in saves/LLaVA-1.5-7B-Chat/lora/train_k_folds_4_4_epochs/special_tokens_map.json
+
+[WARNING|2025-05-27 22:49:25] logging.py:148 >> No metric eval_loss to plot.
+
+[WARNING|2025-05-27 22:49:25] logging.py:148 >> No metric eval_accuracy to plot.
+
+[INFO|2025-05-27 22:49:25] modelcard.py:450 >> Dropping the following result as it does not have all the necessary fields:
+{'task': {'name': 'Causal Language Modeling', 'type': 'text-generation'}}
+

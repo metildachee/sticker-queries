@@ -1,0 +1,26 @@
+{
+  "sticker-queries": {
+    "description": "StickerQueries is a multilingual dataset for generating and retrieving sticker search queries.",
+    "features": {
+      "sticker_id": {
+        "dtype": "string",
+        "description": "File path to the sticker image"
+      },
+      "labeled_queries": {
+        "dtype": "string",
+        "description": "Comma-separated human-annotated queries"
+      }
+    },
+    "splits": {
+      "train": {
+        "name": "train",
+        "num_bytes": 123456,
+        "num_examples": 1730
+      }
+    },
+    "license": "mit",
+    "citation": "@misc{huggingface-sticker-queries,\n  author = {Heng Er Metilda Chee, et al.},\n  title = {Small Stickers, Big Meanings: A Multilingual Sticker Semantic Understanding Dataset with a Gamified Approach},\n  year = {2025},\n  publisher = {Hugging Face},\n  howpublished = {\\url{https://huggingface.co/datasets/metchee/sticker-queries}},\n}",
+    "task_categories": ["text-generation", "sticker-retrieval"],
+    "language": ["en", "zh"]
+  }
+}
